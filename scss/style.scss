@@ -1,0 +1,103 @@
+
+$b-bg:#333;
+$font-color:#fff;
+$red-color: red;
+$primary-color: #3292a6;
+$icon-font-size: 30px;
+body {
+  margin-top: 90px; }
+
+.navbar{
+  box-shadow: 2px 2px 5px $primary-color;
+    background: $font-color;
+    opacity: 0.9;
+    //height: 100px;    
+}
+ .navbar .navimage{
+      height: 50px;
+      width: 50px;
+    } 
+.navbar .nav-item .nav-link {
+      color: black;
+      font-weight: bold;
+      font-size: 20px;
+      //margin-right: 20px;
+      //background-color: red;
+    }
+.navbar .nav-item .nav-link:hover {
+      color: $primary-color;
+      //background-color: red;
+    }
+#homeSection{
+  position: relative;
+  background: url('../img/mountains.jpg');
+  min-height: 600px;
+
+  .overcolor{
+      background: rgba(50, 146, 156, 0.7);
+      min-height: 600px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+
+}
+#homepart2{
+  background: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#homepart3{
+  // background: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#about{
+  background: #f0f0f5;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+#metSection{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .design {
+    height: 100px;
+    width: 100px;  
+    margin-top: -50px;
+    
+  }
+  .cardh:hover{
+    background: $primary-color;
+    color: $font-color;
+    .fa{
+    color: $font-color;
+    } 
+    
+  }
+  .icondesign{
+    font-size: 30px;
+    
+  }
+}
+
+#contactSection{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #f0f0f5;
+  // .contacimage{
+  //   height: 300px;
+  //   width: 300px;
+  // }
+}
+
+footer{
+  background: $primary-color;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  text-align: center;
+
+}
